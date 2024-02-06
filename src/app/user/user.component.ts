@@ -6,8 +6,6 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DialogAddUserComponent } from '../dialog-add-user/dialog-add-user.component';
 
-
-
 @Component({
   selector: 'app-user',
   standalone: true,

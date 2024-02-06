@@ -1,7 +1,23 @@
 <h2 mat-dialog-title>Add user</h2>
 <mat-dialog-content>
-    NUTZER HINZUFÜGEN
+  <p>
+    <mat-form-field appearance="fill">
+      <mat-label>Fill form field</mat-label>
+      <input matInput placeholder="Placeholder">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+  </p>
+  <p>
+    <mat-form-field appearance="outline">
+      <mat-label>Outline form field</mat-label>
+      <input matInput placeholder="Placeholder">
+      <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      <mat-hint>Hint</mat-hint>
+    </mat-form-field>
+  </p>
 </mat-dialog-content>
+
 <mat-dialog-actions>
   <button mat-button>Cancle</button>
   <button mat-button cdkFocusInitial>Save</button>
